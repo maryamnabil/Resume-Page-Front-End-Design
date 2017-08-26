@@ -1,0 +1,219 @@
+
+#LeftSide{
+
+	float: left;
+margin-top: 30px;
+margin-left:20px; 
+width: 40%;
+align-self: center;
+color:blue;
+}
+
+#Top {
+
+	margin-left: 30px;
+}
+
+#Image img {
+	height: auto;
+	border-radius: 2000px;
+	width: 40%;
+	margin-left: 50px;
+}
+
+#first {
+	font-size: 16px;
+	font-weight: 100;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	color: black;
+	margin-left: 80px;
+	
+}
+#sur{
+	font-size: 1em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-left: 60px;
+color: black;
+}
+#title 
+{
+	font-size: 1em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-left: 80px;
+	color: black;
+}
+.Icon
+{
+
+margin-top: 30px;
+font-size: 1.5em;
+color: blue;
+
+}
+
+.Content {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+   margin-top: 30px;
+   color: black;
+   
+}
+
+#ContactContent{
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+   margin-top: 30px;
+   color: black;
+
+}
+
+/*skills*/
+.circles{
+  display:inline-block;
+  margin:0 0 30px 0;
+  padding:0;
+}
+
+#SkillContent h2{
+  display:inline-block;
+  width:30%;
+  color:black;
+  margin:0 0 15px 0;
+  margin-left: 20px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.circle{
+  position:relative;
+  display:inline-block;
+  width:15px;
+  height:15px;
+  padding:2px;
+  border-radius:50%;
+  list-style:none;
+  border:2px solid #2196f3;
+  overflow:hidden;
+}
+
+.circle.full:before{
+  content:'';
+  display:inline-block;
+  background:#2196f3;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  vertical-align:top;
+}
+
+.circle.half:before{  
+  content:'';
+  display:inline-block;
+  background:#2196f3;
+  width:100%;
+  height:100%;
+  margin-left:-50%;
+  vertical-align:top;
+}
+
+.circle.halfy:before {
+  content:'';
+  display:block;
+    width: 5px;
+    height: 7px;
+    background-color: #2196f3;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 2x solid gray;
+    border-right: 0;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.circle:after{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:calc(100% - 4px);
+  height:calc(100% - 4px);
+  /*border:1px solid #2196f3;*/
+  border-radius:50%;
+}
+
+#SkillContent{
+	margin-top: 30px;
+}
+
+#Rightside{
+
+	float: right;
+    width: 50%;
+    color:blue;
+}
+
+#educationContent {
+font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+   margin-top: 30px;
+font-weight: 700;
+
+
+}
+
+#educationContent h2 {
+font-weight: 100;
+font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+font-size:16px;
+color: black;
+
+}
+.color {
+ color: black;
+
+}
+
+#experienceContent{
+font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+   margin-top: 30px;
+font-weight: 700;
+
+
+}
+#experienceContent p {
+	color:black;
+	font-weight: 100;
+	font-size:14px; }
+
+	/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 10px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #2196f3;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #2196f3;} 
+.photoshop {width: 60%; background-color: #2196f3;} 
+.Python {width: 50%; background-color: #2196f3;} 
+#Left{
+width: 40%;
+color: black;
+float: left;
+}
+#Right{
+width: 40%;
+color: black;
+float: right;
+}
+
